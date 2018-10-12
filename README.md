@@ -76,7 +76,7 @@
 #######################################################################################################################################################
 #
 #
-#  This file is same as the above TvSeries2.py implemented in python3
+*  This file is same as the above TvSeries2.py implemented in python3
 #
 #  Use this file if you want to run the code in python3, runs without MYSQLdb
 #
