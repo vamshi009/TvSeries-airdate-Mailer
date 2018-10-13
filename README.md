@@ -15,7 +15,7 @@
     +  Press "0" to exit the game!!
 
 
-2.TvSeries2.py
+2. TvSeries2.py
 
    + Dont worry if you dont have MYSQLdb or facing problems with mysqldb!  this program runs without mysqldb
 
@@ -39,23 +39,22 @@
 
    + You can continue to play the game or press "0" to exit the game!!
 
-   +Thank you!
+   + Thank you!
 
 
-                                       TvSeries.py
+3. TvSeries.py
 
 
-  This file is same as the above TvSeries2.py implemented in python3
+  + This file is same as the above TvSeries2.py implemented in python3
 
-  Use this file if you want to run the code in python3, runs without MYSQLdb
+  + Use this file if you want to run the code in python3, runs without MYSQLdb
 
-  It has the same guidelines as like the above "TvSeries2.py" program
+  + It has the same guidelines as like the above "TvSeries2.py" program
 
-  Commandline$ python TvSeries.py
+  + Commandline$ ```python TvSeries.py```
 
-  Thank you!
+  + Thank you!
 
-***********************************************************************************************************************************************************
 
 
 
