@@ -3,7 +3,7 @@
 1. tvseriesdb.py
     + requirements - python2.7, MYSQLdb
     +  Before running the python file give the mysql username and password in the mysqlusername, mysqlpassword varaiables respectively!
-    +  Run it with ```python2.7 tvseries.db```
+    +  Run it with ```python2.7 tvseriesdb.py```
         + will create a database to store the values, acts like a cache which prevents fetching of already seen values
         +  creates some warnings if the database is already created, you can happily ignore them
     + Valid mail format

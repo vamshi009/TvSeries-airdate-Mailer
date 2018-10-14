@@ -42,7 +42,7 @@ def getlist():
 
 
 def getMailData(secondlink, thirdlink):
-	print("enetred the final destination!!")
+	'''print("enetred the final destination!!")'''
 	flag = 0
 
 	if(thirdlink!="None"):
@@ -158,7 +158,7 @@ def getMailData(secondlink, thirdlink):
 
 def getEpisodeData(link):
 	'''print("LOL\n")'''
-	print("getting the final links")
+	'''print("getting the final links")'''
 	quote_page = link
 	page = urlopen(quote_page)
 	soup = BeautifulSoup(page, 'html.parser')
@@ -186,7 +186,7 @@ def getEpisodeData(link):
 
 
 def getLink(text2):
-	print("getting first link")
+	'''print("getting first link")'''
 	quote_page = "https://www.imdb.com/chart/tvmeter?ref_=nv_tvv_mptv"
 	page = urlopen(quote_page)
 	soup = BeautifulSoup(page, "html.parser")
