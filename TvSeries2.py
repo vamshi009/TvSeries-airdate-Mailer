@@ -12,7 +12,6 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-print("Runiing the code!!")
 
 MY_ADDRESS = 'svkc1234'
 PASSWORD = 'bkmgnmezmwskzexx'
@@ -123,7 +122,7 @@ def getMailData(secondlink, thirdlink):
 		'''print("years are --- ", formatdateyear)'''
 		if(len(formatdate)==0):
 			'''print("No current episodes, next season on ", formatdateyear[-1])'''
-			sol = "No current episodes, next season on " + str(formatdateyear[-1])
+			sol = "No current episodes, wait for the upcoming season" 
 			ans.append(sol)
 		else:
 			finaldate = []
@@ -198,9 +197,9 @@ def getLink(text2):
 			series = key
 	tvseries.append(series)
 	name_box = soup.find('a',attrs={'title':cast})
-	print("fetched")
+	'''print("fetched")'''
 	name = name_box.text
-	print(name)
+	'''print(name)'''
 	'''print(name_box.attrs)
 	print(name_box.attrs['href'])'''
 	link = name_box.attrs['href']
